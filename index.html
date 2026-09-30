@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EduConnect</title>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f5f9ff;
+color:#333;
+}
+
+header{
+background:white;
+padding:20px;
+text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.logo{
+font-size:42px;
+color:#1565C0;
+font-weight:bold;
+}
+
+.logo i{
+margin-right:10px;
+}
+
+.tagline{
+font-size:18px;
+color:#555;
+margin-top:10px;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:linear-gradient(135deg,#e3f2fd,#ffffff);
+}
+
+.hero h1{
+font-size:52px;
+color:#1565C0;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+max-width:800px;
+margin:auto;
+line-height:1.6;
+}
+
+.hero-icons{
+margin-top:40px;
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.hero-icons div{
+background:white;
+padding:20px;
+border-radius:15px;
+width:120px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.hero-icons i{
+font-size:40px;
+color:#1565C0;
+margin-bottom:10px;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin:50px 0 30px;
+color:#1565C0;
+}
+
+.features{
+max-width:1200px;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card i{
+font-size:45px;
+color:#1565C0;
+margin-bottom:15px;
+}
+
+.card h3{
+margin-bottom:10px;
+color:#0D47A1;
+}
+
+.banner{
+background:#1565C0;
+color:white;
+text-align:center;
+padding:25px;
+font-size:32px;
+font-weight:bold;
+margin:60px 0;
+}
+
+.benefits{
+display:flex;
+justify-content:center;
+gap:40px;
+flex-wrap:wrap;
+padding:20px;
+}
+
+.benefit{
+text-align:center;
+background:white;
+padding:25px;
+width:220px;
+border-radius:15px;
+box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.benefit i{
+font-size:50px;
+color:#1565C0;
+margin-bottom:10px;
+}
+
+footer{
+margin-top:50px;
+background:#0D47A1;
+color:white;
+padding:25px;
+text-align:center;
+font-size:20px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:36px;
+}
+
+.section-title{
+font-size:30px;
+}
+
+.banner{
+font-size:24px;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">
+<i class="fas fa-book-open"></i>EduConnect
+</div>
+<div class="tagline">
+Your Gateway to Academic Success!
+</div>
+</header>
+
+<section class="hero">
+
+<h1>Welcome to EduConnect</h1>
+
+<p>
+EduConnect is your all-in-one student portal designed to support
+your academic journey. Access everything you need in one convenient place.
+</p>
+
+<div class="hero-icons">
+
+<div>
+<i class="fas fa-graduation-cap"></i>
+<p>Learning</p>
+</div>
+
+<div>
+<i class="fas fa-comments"></i>
+<p>Forum</p>
+</div>
+
+<div>
+<i class="fas fa-calendar"></i>
+<p>Schedule</p>
+</div>
+
+<div>
+<i class="fas fa-award"></i>
+<p>Grades</p>
+</div>
+
+</div>
+
+</section>
+
+<h2 class="section-title">Student Features</h2>
+
+<section class="features">
+
+<div class="card">
+<i class="fas fa-desktop"></i>
+<h3>Course Dashboard</h3>
+<p>View your classes, assignments and grades in one place.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-book"></i>
+<h3>Learning Resources</h3>
+<p>Access tutorials, notes and study materials anytime.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-clipboard-check"></i>
+<h3>Assignments & Exams</h3>
+<p>Track deadlines and submit assignments easily.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-message"></i>
+<h3>Messages & Notifications</h3>
+<p>Stay connected with teachers and classmates.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-chart-line"></i>
+<h3>Academic Progress</h3>
+<p>Monitor grades, achievements and overall growth.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-globe"></i>
+<h3>24/7 Access</h3>
+<p>Learn and collaborate from anywhere at any time.</p>
+</div>
+
+</section>
+
+<div class="banner">
+Stay Connected. Stay Organized. Succeed!
+</div>
+
+<h2 class="section-title">Why Choose EduConnect?</h2>
+
+<section class="benefits">
+
+<div class="benefit">
+<i class="fas fa-check-circle"></i>
+<h3>Easy To Use</h3>
+</div>
+
+<div class="benefit">
+<i class="fas fa-mobile-screen"></i>
+<h3>Mobile Friendly</h3>
+</div>
+
+<div class="benefit">
+<i class="fas fa-clock"></i>
+<h3>24/7 Access</h3>
+</div>
+
+<div class="benefit">
+<i class="fas fa-lock"></i>
+<h3>Secure & Reliable</h3>
+</div>
+
+</section>
+
+<footer>
+Empowering Your Education, Anytime, Anywhere!
+</footer>
+
+</body>
+</html>
